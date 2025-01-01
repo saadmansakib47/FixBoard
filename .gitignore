@@ -1,0 +1,48 @@
+# Node.js
+/node_modules/
+/client/node_modules/
+/server/node_modules/
+/npm-debug.log
+/package-lock.json
+/yarn.lock
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Build output
+/dist
+/build
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/server/.env
+/client/.env
+
+# IDE and editor folders
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Debug and test folders
+/debug/
+test-coverage/
+
+# Frontend build
+/client/build
+
+# Dependency directory for production or staging (if you choose not to use "npm run build")
+/client/node_modules
+
+# Other potential ignored files
+*.bak
+*.tmp
+*.swp
